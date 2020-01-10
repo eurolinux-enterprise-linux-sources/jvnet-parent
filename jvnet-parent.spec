@@ -1,6 +1,6 @@
 Name:           jvnet-parent
 Version:        4
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Java.net parent POM file
 
 Group:          Development/Libraries
@@ -36,6 +36,9 @@ cp -p %{SOURCE1} LICENSE
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4-2
+- Mass rebuild 2013-12-27
+
 * Thu May 02 2013 gil cattaneo <puntogil@libero.it> - 4-1
 - Update to version 4
 
